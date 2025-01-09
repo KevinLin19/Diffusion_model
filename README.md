@@ -13,3 +13,4 @@ Pour pouvoir tester la version 1 du ControlNet, il faut créer un dossier 'data'
 
 Il faudra aussi télécharger les poids d'un modèle pré-entrainé dans un fichier que vous devrez appeler 'ddpm_ckpt_pre_trained.pth'. Tout cela sera dans un dossier appelé 'DDPM_trained'.
 
+Pour lancer le training : ```python -m tools.train_ddpm_controlnet --config config/mnist.yaml```
